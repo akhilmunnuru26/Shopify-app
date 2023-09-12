@@ -40,6 +40,29 @@
 }
 
 
+.adv {
+    font-size: 16px;
+    color:#000002;
+    font-weight: 600;
+}
+
+.adv-container {
+    background-color:#EFFBF7;
+    border-top: 2px solid #B4EDCD;
+    border-bottom:2px solid #B4EDCD;
+    width:100%;
+    text-align: center;
+
+}
+
+
+.cards-container {
+    display: none;
+    padding-left:0px;
+    display:flex;
+    flex-direction: column;
+}
+
 .pop-up-container {
     display:none;
 }
