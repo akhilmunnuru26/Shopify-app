@@ -3,7 +3,7 @@ import {GiHamburgerMenu} from 'react-icons/gi'
 import './index.css'
 
 
-const Header = (props) => 
+const Header = () => 
     
     
   (
