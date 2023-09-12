@@ -69,8 +69,6 @@ const Body = () =>{
             const activeClass = (id === activeCardId ? 'tabs-basic':'tabs')
             const toggleActiveCards = () => {
                 setActiveCardId(id)
-                const filteredCard = shopifyData.filter(eachItem => eachItem.title === id)
-                setActiveCard(filteredCard[0])
             }
             return (
             <div onClick={toggleActiveCards} key={id} className={activeClass}>
