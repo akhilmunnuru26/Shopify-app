@@ -1,0 +1,231 @@
+* {
+    font-family: 'Roboto';
+}
+
+.tabs-container {
+    display:flex;
+    align-items: center;
+    margin-top: 0px;
+    padding-left: 0px;
+    width:100%;
+}
+
+.card {
+    margin-bottom:20px;
+    border-bottom: 1px solid #ECECEC;
+    padding-bottom:30px;
+}
+
+
+@media screen and (min-width:768px){
+    .tabs-container {
+        display:none;
+    }
+}
+
+.tabs {   
+    border:2px solid #ECECEC;
+    height:35px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:25px;
+    padding-bottom:25px;
+    
+}
+
+.tabs-basic {
+    border-top: 2px solid #A9EBE9;
+    border-bottom:2px solid #ECECEC;
+    height:35px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:25px;
+    padding-bottom:25px;
+}
+
+.tab-name {
+    color:#000002; 
+    font-size:18px;
+}
+
+.price {
+    font-size:65px;
+    color:#000002;
+    display:flex;
+    align-items:center;
+    margin-left:20px;
+
+}
+
+.denomination {
+   margin-left:5px;
+    font-size:13px;
+    color:#000002;
+}
+
+.rupee-symbol {
+    content: "\20B9";
+    font-size:45px;
+}
+
+.rupee {
+    content: "\20B9";
+    font-size:15px;
+}
+
+.adv {
+    font-size: 16px;
+    color:#000002;
+    font-weight: 600;
+}
+
+.adv-container {
+    background-color:#EFFBF7;
+    border-top: 2px solid #B4EDCD;
+    border-bottom:2px solid #B4EDCD;
+    width:100%;
+    text-align: center;
+
+}
+
+.green-tick-image {
+    height:40px;
+    margin-right:15px;
+}
+
+.tags-container {
+    display:flex;
+    align-items:center;
+}
+
+.tags {
+    font-size: 18px;
+    color:#000002
+}
+
+.try-for-free-btn {
+    height:45px;
+    width:90%;
+    border-radius:30px;
+    background-color: #000002;
+    color:#ECECEC;
+    font-size: 20px;
+    border:0px;
+    outline:none;
+    cursor:pointer;
+    
+}
+
+.button-conatiner {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:30px;
+}
+
+.side-heading {
+    color:#000002;
+    font-size: 15px;
+}
+
+.benfits-container {
+    margin-top: 60px;
+}
+
+
+.plans-container {
+    display:none;
+}
+
+.tooltiptext {
+    display: none;
+}
+
+@media screen and (min-width:768px){
+    .plans-container {
+        display:flex;
+        flex-direction: column;
+        padding:20px;
+    }
+    .card {
+        border: 1px solid #ECECEC;
+        border-radius: 10px;
+        margin-left:10px;
+        margin-right:10px;
+        background-color:#ffffff;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        padding-bottom: 30px;
+    }
+    .active-card {
+        border-radius: 10px;
+        margin-left:10px;
+        margin-right:10px;
+        background-color:#ffffff;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        border: 2px solid #9BFAEA;
+        padding-bottom:30px;
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black;
+    }
+    .benfits-container {
+        padding:15px;
+        margin-top: 30px;
+    }
+    .title {
+        margin:10px;
+        font-family: 'Roboto';
+    }
+    .sub-title {
+        margin:10px;
+        font-family: 'Roboto';
+    }
+    .description {
+        margin:10px;
+        font-family: 'Roboto';
+    }
+    .price {
+        font-size:40px;
+        margin-top: 5px;
+        margin-bottom:20px;
+        margin-left:30px;
+        font-family: 'Roboto';
+    }
+    .rupee-symbol {
+        font-size:30px;
+    }
+    .tags-container {
+        margin:0px;
+    }
+    .tags {
+        margin:0px;
+    }
+      
+    .tooltiptext {
+        display: flex;
+        flex-direction: column;
+        width: 120px;
+        background-image: linear-gradient(to right,#A5F6EE,#5EFDA8);
+        color: #000002;
+        text-align: center;
+        border-radius: 15px;
+        padding: 5px 0;
+        
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+        bottom: 100%;
+        left: 50%;
+        margin-left: -60px;
+      }
+      
+    .active-card:hover .tooltiptext {
+        visibility: visible;
+      }
+
+}

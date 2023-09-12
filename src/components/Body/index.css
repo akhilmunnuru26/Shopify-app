@@ -1,0 +1,182 @@
+* {
+    font-family: 'Roboto';
+}
+
+.tabs-container {
+    display:flex;
+    align-items: center;
+    margin-top: 0px;
+    padding-left: 0px;
+    width:100%;
+}
+
+.tabs {   
+    border:2px solid #ECECEC;
+    height:35px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:25px;
+    padding-bottom:25px;
+    
+}
+
+.tabs-basic {
+    border-top: 2px solid #A9EBE9;
+    border-bottom:2px solid #ECECEC;
+    height:35px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:25px;
+    padding-bottom:25px;
+}
+
+.tab-name {
+    color:#000002; 
+    font-size:18px;
+}
+
+.price {
+    font-size:60px;
+    color:#000002;
+    display:flex;
+    align-items:center;
+    margin-left:20px;
+
+}
+
+.denomination {
+   margin-left:5px;
+    font-size:13px;
+    color:#000002;
+}
+
+.rupee-symbol {
+    content: "\20B9";
+    font-size:45px;
+}
+
+.rupee {
+    content: "\20B9";
+    font-size:15px;
+}
+
+.adv {
+    font-size: 16px;
+    color:#000002;
+    font-weight: 600;
+}
+
+.adv-container {
+    background-color:#EFFBF7;
+    border-top: 2px solid #B4EDCD;
+    border-bottom:2px solid #B4EDCD;
+    width:100%;
+    text-align: center;
+
+}
+
+.green-tick-image {
+    height:40px;
+    margin-right:15px;
+}
+
+.tags-container {
+    display:flex;
+    align-items:center;
+}
+
+.tags {
+    font-size: 18px;
+    color:#000002
+}
+
+.try-for-free-btn {
+    height:45px;
+    width:90%;
+    border-radius:30px;
+    background-color: #000002;
+    color:#ECECEC;
+    font-size: 20px;
+    border:0px;
+    outline:none;
+    cursor:pointer;
+    
+}
+
+.button-conatiner {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:30px;
+}
+
+.side-heading {
+    color:#000002;
+    font-size: 15px;
+}
+
+.benfits-container {
+    margin-top: 90px;
+}
+
+
+.cards-container {
+    display: none;
+    padding-left:0px;
+    display:flex;
+    flex-direction: column;
+}
+
+.pop-up-container {
+    display:none;
+}
+
+@media screen and (min-width:768px){
+   
+    .cards-container {
+        display:flex;
+        flex-direction: row;
+        align-items:center;
+        padding:30px;
+        
+    }
+    .body {
+        background-image: linear-gradient(to right, #ffffff ,#FFFFFF,#FFFFFF,#FFFFFF,#F2FAFC, #A3E3EF);
+        margin:0px;
+        padding:10px;
+        display:flex;
+        flex-direction: column;
+    }
+
+    .pop-up-container {
+        display:flex;
+        align-items:center;
+        align-self: center;
+        border:1px solid #52FFA6;
+        border-radius:20px;
+        padding:5px;
+        margin-top:20px;
+        padding-right: 10px;
+    }
+
+    .pay-monthly-adv {
+        font-size:15px;
+        background-color: #000002;
+        color:#F2FAFC;
+        border-radius:16px;
+        padding-top:5px;
+        padding-bottom:5px;
+        width:100px;
+        text-align:center;
+        margin-right: 10px;
+    }
+
+    .pay-pop-up-adv {
+        font-size:12px;
+    }
+}

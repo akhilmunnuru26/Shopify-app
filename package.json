@@ -1,0 +1,34 @@
+{
+  "name": "shopify-app",
+  "version": "1.0.0",
+  "description": "shopify static web page",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akhilmunnuru26/Shopify-app.git"
+  },
+  "author": "Munnuru Akhil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akhilmunnuru26/Shopify-app/issues"
+  },
+  "homepage": "https://github.com/akhilmunnuru26/Shopify-app#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-router-dom": "^6.15.0"
+  },
+  "browsersList": [
+    "last 5 chrome versions",
+    "last 5 firefox versions"
+  ]
+}
